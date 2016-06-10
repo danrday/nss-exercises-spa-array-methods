@@ -1,3 +1,5 @@
+var testIIFE = (function() {
+
 var planets = ["mercury", "venus", "earth", "mars", "jupiter", "saturn", "uranus", "neptune"];
 
 
@@ -67,7 +69,7 @@ var sentence = words.reduce(function(a, b) {return a + " " + b});
 domElement.innerHTML += "<p>reduced array: </p>";
 domElement.innerHTML += sentence;
 
-
+} () );
 
 
 
